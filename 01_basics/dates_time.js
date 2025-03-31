@@ -37,3 +37,8 @@ console.log(newDate.toLocaleString('default', {
     weekday: "long",     //Sunday
     weekday: "short"     //Sun
 })) 
+
+let d1 = new Date("2024-03-30");
+let d2 = new Date("2024-04-05");
+let diff = (d2-d1)/(1000*60*60*24);   //days difference
+console.log(diff);
